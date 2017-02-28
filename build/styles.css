@@ -1,0 +1,12 @@
+body {
+    margin: auto;
+    background-color: #FFFFFF;
+}
+
+.virtualcpuIPCell {
+    background-color: #FFCCCC;
+}
+
+.virtualcpuSPCell {
+    border: 2px solid #FF0000;
+}

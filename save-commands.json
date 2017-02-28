@@ -1,0 +1,7 @@
+{ "timeout": 5000
+, "commands":
+    [ "src/main/elm/**/*.elm : elm make src/main/elm/Main.elm --output=build/main.js"
+    , "src/main/elm/Styles.elm : elm-css src/main/elm/Stylesheets.elm --output build"
+    , "src/main/haskell/**/*.hs : ghc --make src/main/haskell/Main.hs -o build/haskell/main"
+    ]
+}
