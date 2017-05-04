@@ -5,6 +5,7 @@ factorial :: Integer -> Integer
 factorial n = product [1..n]
 
 main = do
+
     print list
 
     print (factorial 50)
